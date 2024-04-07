@@ -89,6 +89,9 @@ body {
   gap: 1.5rem;
   align-items: center;
 }
+.main-container h1{
+    color:orange;
+}
 .card{
   position: relative;
   margin-top: 2rem;
