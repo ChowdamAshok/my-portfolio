@@ -83,13 +83,13 @@ body {
   margin-right: 0px;
   width: 15%;
 }
-.menu-container {
+.projects{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, auto));
   gap: 1.5rem;
   align-items: center;
 }
-.main-container h1{
+.projects h1{
     color:orange;
 }
 .card{
