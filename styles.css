@@ -260,10 +260,10 @@ footer p{
   }
 
   .right::before {
-    height: 400px; 
-    width: 400px;
+    height: 350px; 
+    width: 350px;
     left: 10%;
-    top: 60%;
+    top: 50%;
   }
 
   @keyframes object1 {
