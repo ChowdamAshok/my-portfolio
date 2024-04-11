@@ -256,14 +256,14 @@ footer p{
 }
 @media only screen and (max-width: 768px) {
   .wrapper {
-    padding: 0 5%;
+    padding: 5%;
   }
 
   .right::before {
     height: 400px; 
     width: 400px;
     left: 10%;
-    top: 65%;
+    top: 55%;
   }
 
   @keyframes object1 {
