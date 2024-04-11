@@ -5,6 +5,7 @@ body {
     background-color: #333;
     scroll-behavior: smooth;
   }
+
   .nav-logo {
     height: 80px;
     width: auto;
@@ -47,38 +48,60 @@ body {
   }
   
 
-  .home{
+  .home {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
     padding: 20px;
-}
-  .left{
+  }
+  
+  .left {
     color: white;
     width: 50%;
     z-index: 5;
     text-align: left;
-    text-decoration: solid;
     font-size: 25px;
     text-transform: capitalize;
   }
-  .hello{
+  
+  .hello {
     font-size: 20px;
   }
-  .multitext{
+  
+  .multitext {
     color: skyblue;
   }
-  .right{
+  
+  .right {
     float: right;
     width: 50%;
     text-align: right;
     z-index: 5;
   }
-  .right img{
-    position:relative;
-    animation: animateUser 3s linear infinite;
+  
+  .right img {
+    position: relative;
   }
+  @media only screen and (max-width: 768px) {
+    .home {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .left, .right {
+      width: 100%;
+    }
+  
+    .left {
+      font-size: 20px; 
+    }
+  
+    .right img {
+      max-width: 100%; 
+    }
+  }
+  
 
   .about{
     color: white;
@@ -205,7 +228,7 @@ footer p{
   color: darkgray;
 }
 
-.wapper{
+.wrapper {
   display: flex;
   width: 100%;
   justify-content: center;
@@ -213,7 +236,8 @@ footer p{
   padding: 0 10%;
   overflow: hidden;
 }
-.contact::before{
+
+.right::before {
   position: absolute;
   content: '';
   height: 600px;
@@ -221,12 +245,30 @@ footer p{
   border-radius: 50%;
   left: 50%;
   top: 30%;
-  background: linear-gradient(45deg,#7f00ff,pink);
+  background: linear-gradient(45deg, #7f00ff, pink);
   animation: object1 6s linear infinite;
 }
-@keyframes object1{
-  50%{
+
+@keyframes object1 {
+  50% {
     left: 48%;
-    
+  }
+}
+@media only screen and (max-width: 768px) {
+  .wrapper {
+    padding: 0 5%;
+  }
+
+  .right::before {
+    height: 400px; 
+    width: 400px;
+    left: 10%;
+    top: 65%;
+  }
+
+  @keyframes object1 {
+    50% {
+      left: 15%; 
+    }
   }
 }
