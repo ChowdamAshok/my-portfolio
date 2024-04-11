@@ -254,7 +254,7 @@ footer p{
     left: 48%;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .wrapper {
     padding: 5%;
   }
@@ -263,7 +263,7 @@ footer p{
     height: 400px; 
     width: 400px;
     left: 10%;
-    top: 55%;
+    top: 60%;
   }
 
   @keyframes object1 {
