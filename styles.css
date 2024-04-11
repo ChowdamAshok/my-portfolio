@@ -260,8 +260,8 @@ footer p{
   }
 
   .right::before {
-    height: 350px; 
-    width: 350px;
+    height: 400px; 
+    width: 400px;
     left: 10%;
     top: 55%;
   }
