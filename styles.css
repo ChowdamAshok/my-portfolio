@@ -262,8 +262,26 @@ footer p{
   .right::before {
     height: 400px; 
     width: 400px;
-    left: 10%;
+    left: 5%;
     top: 55%;
+  }
+
+  @keyframes object1 {
+    50% {
+      left: 10%; 
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  .wrapper {
+    padding: 5%;
+  }
+
+  .right::before {
+    height: 400px; 
+    width: 400px;
+    left: 10%;
+    top: 60%;
   }
 
   @keyframes object1 {
