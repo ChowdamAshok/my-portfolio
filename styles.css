@@ -261,7 +261,7 @@ footer p{
 
   .right::before {
     height: 400px; 
-    width: 400px;
+    width: 600px;
     left: 5%;
     top: 45%;
   }
@@ -279,9 +279,9 @@ footer p{
 
   .right::before {
     height: 400px; 
-    width: 400px;
+    width: 300px;
     left: 10%;
-    top: 60%;
+    top: 50%;
   }
 
   @keyframes object1 {
