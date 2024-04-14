@@ -261,8 +261,8 @@ footer p{
   }
 
   .right::before {
-    height: 400px; 
-    width: 400px;
+    height: 380px; 
+    width: 380px;
     left: 10%;
     top: 50%;
   }
