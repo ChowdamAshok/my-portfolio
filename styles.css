@@ -254,24 +254,6 @@ footer p{
     left: 48%;
   }
 }
-@media only screen and (max-width: 600px) {
-  .wrapper {
-    padding: 5%;
-  }
-
-  .right::before {
-    height: 400px; 
-    width: 600px;
-    left: 5%;
-    top: 45%;
-  }
-
-  @keyframes object1 {
-    50% {
-      left: 10%; 
-    }
-  }
-}
 @media only screen and (max-width: 768px) {
   .wrapper {
     padding: 5%;
@@ -279,7 +261,7 @@ footer p{
 
   .right::before {
     height: 400px; 
-    width: 300px;
+    width: 400px;
     left: 10%;
     top: 50%;
   }
