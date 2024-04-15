@@ -78,6 +78,8 @@ body {
     width: 50%;
     text-align: right;
     z-index: 5;
+    background-color:#34ebab;
+    border-radius:50%;
   }
   
   .right img {
@@ -229,47 +231,4 @@ footer p{
   color: darkgray;
 }
 
-.wrapper {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  padding: 0 10%;
-  overflow: hidden;
-}
 
-.right::before {
-  position: absolute;
-  content: '';
-  height: 600px;
-  width: 600px;
-  border-radius: 50%;
-  left: 50%;
-  top: 30%;
-  background: linear-gradient(45deg, #7f00ff, pink);
-  animation: object1 6s linear infinite;
-}
-
-@keyframes object1 {
-  50% {
-    left: 48%;
-  }
-}
-@media only screen and (max-width: 768px) {
-  .wrapper {
-    padding: 5%;
-  }
-
-  .right::before {
-    height: 380px; 
-    width: 380px;
-    left: 10%;
-    top: 50%;
-  }
-
-  @keyframes object1 {
-    50% {
-      left: 15%; 
-    }
-  }
-}
