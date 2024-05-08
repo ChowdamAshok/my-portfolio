@@ -98,7 +98,7 @@ section {
   
   @media (max-width: 768px) {
     section {
-      padding: 50px 10%;
+      padding: 50px 8%;
     }
     #menu-icon {
       display: initial;
@@ -451,12 +451,14 @@ margin-bottom: 0;
 
 .contact h1{
   text-align: center;
+   margin-bottom: 10px;
   font-size: 30px;
   color: orange;
 }
 .contact h2{
   text-align: center;
   font-size: 20px;
+  margin-bottom: 10px;
   color:white;
 }
 .logobtn{
@@ -474,4 +476,3 @@ footer p{
   text-align: center;
   color: darkgray;
 }
-
