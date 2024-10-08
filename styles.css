@@ -164,7 +164,9 @@ section {
   .right img {
     position: relative;
     background-color:#34ebab;
-    border-radius:20%;
+    border-radius:15%;
+    width: 70%;
+    pading:20px;
   }
   .right img:hover{
     box-shadow: 2px 2px 10px white;
