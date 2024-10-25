@@ -178,6 +178,7 @@ section {
   
     .left, .right {
       width: 100%;
+      text-align: center;
     }
   
     .left {
@@ -185,7 +186,8 @@ section {
     }
   
     .right img {
-      max-width: 100%; 
+      max-width: 100%;
+      margin: 10%;
     }
   }
   
